@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render header component 1`] = `
+<header>
+  <h1>
+    EXPENSIFY
+  </h1>
+  <NavLink
+    activeClassName="active-class"
+    ariaCurrent="true"
+    exact={true}
+    to="/"
+  >
+    LETS GO TO HOMEPAGE
+  </NavLink>
+  <br />
+  <br />
+  <NavLink
+    activeClassName="active-class"
+    ariaCurrent="true"
+    to="/create"
+  >
+    LETS GO TO CREATEPAGE
+  </NavLink>
+  <br />
+  <br />
+  <NavLink
+    activeClassName="active-class"
+    ariaCurrent="true"
+    to="/HelpPage"
+  >
+    LETS GO TO HELPPAGE
+  </NavLink>
+  <br />
+  <br />
+</header>
+`;
