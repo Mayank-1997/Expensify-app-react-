@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\mayaggar\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install --production
+  C:\Program Files\nodejs\node.exe C:\Users\mayaggar\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add numeral@2.0.6
 
 PATH: 
   C:\APPS\winscp;C:\apps\seeinstaller\bin;C:\apps\jdk_1.8.0_201\db\bin;\bin;C:\APPS\jdk_1.8.0_201\bin;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\APPS\maven3\bin;C:\APPS\jdk_12.0.1\bin;C:\apps\seeinstaller\bin;C:\apps\jdk_1.8.0_201\db\bin;\bin;C:\APPS\jdk_1.8.0_201\bin;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\ProgramData\Oracle\Java\javapath;C:\apps\seeinstaller\bin;C:\apps\jdk_1.8.0_162\db\bin;\bin;C:\APPS\jdk_1.8.0_162\bin;C:\Program Files (x86)\Java\jre1.8.0_162\bin;C:\Python27\Scripts;C:\apps\seeinstaller\bin;C:\apps\jdk_1.8.0_201\db\bin;\bin;C:\APPS\jdk_1.8.0_201\bin;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\apps\seeinstaller\bin;C:\apps\jdk_1.8.0_162\db\bin;\bin;C:\APPS\jdk_1.8.0_162\bin;C:\Program Files (x86)\Java\jre1.8.0_162\bin;C:\APPS\Notepad++;C:\apps\jdk_1.8.0_201\db\bin;C:\APPS\jdk_1.8.0_201\bin;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\system32;C:\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Adaptiva\AdaptivaClient\bin\x32;C:\Program Files (x86)\Adaptiva\AdaptivaClient\bin\x64;C:\react projects\indecision app\node_modules\node-sass\build\binding.sln;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\heroku\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Python27\Scripts;C:\APPS\maven3\bin;C:\apps\seeinstaller\bin;C:\apps\jdk_1.8.0_201\db\bin;\bin;C:\APPS\jdk_1.8.0_201\bin;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\apps\seeinstaller\bin;C:\apps\jdk_1.8.0_162\db\bin;\bin;C:\APPS\jdk_1.8.0_162\bin;C:\Program Files (x86)\Java\jre1.8.0_162\bin;C:\APPS\Notepad++;C:\apps\jdk_1.8.0_201\db\bin;C:\APPS\jdk_1.8.0_201\bin;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Webex\Webex\Applications;C:\Program Files (x86)\SafeCom\SafeComPrintClient;C:\Program Files\nodejs\;C:\Users\mayaggar\AppData\Local\Microsoft\WindowsApps;C:\Users\mayaggar\AppData\Roaming\npm;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS;C:\Python27;C:\Users\mayaggar\AppData\Local\Programs\Microsoft VS Code\bin;C:\react projects\indecision app\node_modules\node-sass\build\binding.sln;
@@ -4488,7 +4488,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/jest-changed-files/-/jest-changed-files-20.0.3.tgz#9394d5cc65c438406149bef1bf4d52b68e03e3f8"
     integrity sha1-k5TVzGXEOEBhSb7xv01Sto4D4/g=
   
-  jest-cli@^20.0.4:
+  jest-cli@^20.0.3:
     version "20.0.4"
     resolved "https://registry.yarnpkg.com/jest-cli/-/jest-cli-20.0.4.tgz#e532b19d88ae5bc6c417e8b0593a6fe954b1dc93"
     integrity sha1-5TKxnYiuW8bEF+iwWTpv6VSx3JM=
@@ -4708,12 +4708,12 @@ Lockfile:
       leven "^2.1.0"
       pretty-format "^20.0.3"
   
-  jest@20.0.4:
-    version "20.0.4"
-    resolved "https://registry.yarnpkg.com/jest/-/jest-20.0.4.tgz#3dd260c2989d6dad678b1e9cc4d91944f6d602ac"
-    integrity sha1-PdJgwpidba1nix6cxNkZRPbWAqw=
+  jest@20.0.3:
+    version "20.0.3"
+    resolved "https://registry.yarnpkg.com/jest/-/jest-20.0.3.tgz#e4fd054c4f1170a116a00761da4cfdb73f1cdc33"
+    integrity sha1-5P0FTE8RcKEWoAdh2kz9tz8c3DM=
     dependencies:
-      jest-cli "^20.0.4"
+      jest-cli "^20.0.3"
   
   js-base64@^2.1.8, js-base64@^2.1.9:
     version "2.5.1"
