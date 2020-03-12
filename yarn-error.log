@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\mayaggar\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+  C:\Program Files\nodejs\node.exe C:\Users\mayaggar\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install --production
 
 PATH: 
   C:\APPS\winscp;C:\apps\seeinstaller\bin;C:\apps\jdk_1.8.0_201\db\bin;\bin;C:\APPS\jdk_1.8.0_201\bin;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\APPS\maven3\bin;C:\APPS\jdk_12.0.1\bin;C:\apps\seeinstaller\bin;C:\apps\jdk_1.8.0_201\db\bin;\bin;C:\APPS\jdk_1.8.0_201\bin;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\ProgramData\Oracle\Java\javapath;C:\apps\seeinstaller\bin;C:\apps\jdk_1.8.0_162\db\bin;\bin;C:\APPS\jdk_1.8.0_162\bin;C:\Program Files (x86)\Java\jre1.8.0_162\bin;C:\Python27\Scripts;C:\apps\seeinstaller\bin;C:\apps\jdk_1.8.0_201\db\bin;\bin;C:\APPS\jdk_1.8.0_201\bin;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\apps\seeinstaller\bin;C:\apps\jdk_1.8.0_162\db\bin;\bin;C:\APPS\jdk_1.8.0_162\bin;C:\Program Files (x86)\Java\jre1.8.0_162\bin;C:\APPS\Notepad++;C:\apps\jdk_1.8.0_201\db\bin;C:\APPS\jdk_1.8.0_201\bin;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\system32;C:\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Adaptiva\AdaptivaClient\bin\x32;C:\Program Files (x86)\Adaptiva\AdaptivaClient\bin\x64;C:\react projects\indecision app\node_modules\node-sass\build\binding.sln;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\heroku\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Python27\Scripts;C:\APPS\maven3\bin;C:\apps\seeinstaller\bin;C:\apps\jdk_1.8.0_201\db\bin;\bin;C:\APPS\jdk_1.8.0_201\bin;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\apps\seeinstaller\bin;C:\apps\jdk_1.8.0_162\db\bin;\bin;C:\APPS\jdk_1.8.0_162\bin;C:\Program Files (x86)\Java\jre1.8.0_162\bin;C:\APPS\Notepad++;C:\apps\jdk_1.8.0_201\db\bin;C:\APPS\jdk_1.8.0_201\bin;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Webex\Webex\Applications;C:\Program Files (x86)\SafeCom\SafeComPrintClient;C:\Program Files\nodejs\;C:\Users\mayaggar\AppData\Local\Microsoft\WindowsApps;C:\Users\mayaggar\AppData\Roaming\npm;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS;C:\Python27;C:\Users\mayaggar\AppData\Local\Programs\Microsoft VS Code\bin;C:\react projects\indecision app\node_modules\node-sass\build\binding.sln;
@@ -14,12 +14,11 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\react projects\expensify-app\node_modules\loglevel\lib'
+  Error: EPERM: operation not permitted, unlink 'C:\react projects\expensify-app\node_modules\node-sass\vendor\win32-x64-72\binding.node'
 
 npm manifest: 
   {
     "scripts": {
-      "serve": "live-server public/",
       "build:dev": "webpack",
       "build:prod": "webpack -p --env production",
       "dev-server": "webpack-dev-server",
@@ -53,7 +52,6 @@ npm manifest:
       "react-modal": "2.2.2",
       "react-redux": "5.0.5",
       "react-router-dom": "4.2.2",
-      "react-test-renderer": "16.0.0",
       "redux": "3.7.2",
       "sass-loader": "6.0.6",
       "socket.io": "^2.3.0",
@@ -65,11 +63,11 @@ npm manifest:
      
     },
     "devDependencies": {
-      "enzyme":"2.9.1",
+      "enzyme":"3.0.0",
       "enzyme-to-json": "3.0.1",
-      "jest":"20.0.4",
-      "react-test-renderer":"15.6.1",
-      "webpack-dev-server":"2.5.1"
+      "jest":"20.0.3",
+      "react-test-renderer":"16.0.0",
+      "webpack-dev-server":"3.1.4" 
     }
   }
 

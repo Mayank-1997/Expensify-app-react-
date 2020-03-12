@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
@@ -45,10 +44,10 @@
    
   },
   "devDependencies": {
-    "enzyme":"2.9.1",
+    "enzyme":"3.0.0",
     "enzyme-to-json": "3.0.1",
-    "jest":"20.0.4",
+    "jest":"20.0.3",
     "react-test-renderer":"16.0.0",
-    "webpack-dev-server":"2.5.1"
+    "webpack-dev-server":"3.1.4" 
   }
 }
