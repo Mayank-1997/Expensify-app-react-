@@ -1,13 +1,9 @@
 import React from 'react';
-import {shallow} from 'enzyme';
-import  ExpenseListItem from '../../components/ExpenseListItem';
+import { shallow } from 'enzyme';
 import expenses from '../fixtures/expenses';
+import ExpenseListItem from '../../components/ExpenseListItem';
 
-
-
-test('should print the expenseslistItem from fixtures module ',()=>
-{
- const wrapper=shallow(<ExpenseListItem {...expenses[0]}/>);
- expect(wrapper).toMatchSnapshot();
-
-})
+test('should render ExpenseListItem correctly', () => {
+  const wrapper = shallow(<ExpenseListItem {...expenses[0]} />);
+  expect(wrapper).toMatchSnapshot();
+});

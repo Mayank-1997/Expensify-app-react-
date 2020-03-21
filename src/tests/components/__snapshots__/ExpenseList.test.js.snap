@@ -32,7 +32,7 @@ exports[`should print the expenses from fixtuers file 1`] = `
 exports[`should render ExpenseList with empty message 1`] = `
 <div>
   <p>
-     No expenses
+    No expenses
   </p>
 </div>
 `;
